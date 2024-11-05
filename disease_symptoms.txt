@@ -1,0 +1,22 @@
+{
+  "Alzheimers": "memory_loss,confusion,drowsiness",
+  "Arthritis": "joint_pain,stiffness,back_pain",
+  "Asthma": "wheezing,shortness_of_breath,chest_tightness,anxiety",
+  "Covid": "fever,cough,fatigue,chest_tightness",
+  "Diabetes": "fatigue,excessive_thirst,anxiety,weakness",
+  "Epilepsy": "seizures,headache,confusion",
+  "Glaucoma": "eye_pain,blurred_vision,headache,weakness",
+  "Heart Disease": "chest_pain,chest_tightness,anxiety,fatigue",
+  "Heat Stroke": "fever,dizziness,drowsiness,weakness",
+  "Hyperthyroidism": "anxiety,sweating,chest_tightness",
+  "Hypothermia": "shivering,drowsiness,fatigue",
+  "Jaundice": "yellowing_skin,fever,drowsiness",
+  "Sinusitis": "headache,nasal_congestion,fever",
+  "Tuberculosis": "cough,fever,chest_tightness,fatigue",
+  "Migraine": "headache,weakness,anxiety,drowsiness",
+  "Pneumonia": "cough,fever,chest_tightness",
+  "Bronchitis": "cough,chest_tightness,fatigue",
+  "Anemia": "fatigue,dizziness,headache,weakness",
+  "Depression": "fatigue,anxiety,drowsiness",
+  "Anxiety Disorder": "anxiety,chest_tightness,drowsiness"
+}
