@@ -1046,7 +1046,7 @@ class MedicalExpert(KnowledgeEngine):
             print(f.read())
             print(
                 '\n_________________________________________________________________________________________________ ')
-            print('\n\nĐừng quá lo lắng ', self.username,
+            print('\n\nĐừng quá lo lắng ',self.username,
                   '. Tôi có một số giải pháp dành cho bạn!\n')
             f = open("disease/disease_treatments/" + disease + ".txt", "r")
             print(f.read())
