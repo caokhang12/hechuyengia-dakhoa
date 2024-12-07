@@ -761,8 +761,21 @@ class MedicalApp:
                                 f"Bạn có thể đang mắc bệnh: {self.engine.disease}\n\nMô tả bệnh:\n{description}\n\nCách điều trị:\n{treatment}")
 
         # Reset giao diện
+        self.ask_for_restart()
+    
+    def ask_for_restart(self):
+        # Hỏi người dùng có muốn làm lại hay không
+        result = messagebox.askyesno("Tiếp tục?", "Bạn có muốn tiếp tục chẩn đoán không?")
+        if result:
+            self.reset_diagnosis()
+        else:
+            self.root.quit()  # Thoát chương trình
+
+    def reset_diagnosis(self):
+        # Reset lại giao diện và bắt đầu lại
         self.current_question = 0
         self.answers = {}
+        self.result_label.config(text="")
         self.display_question()
 
 # Chạy ứng dụng
